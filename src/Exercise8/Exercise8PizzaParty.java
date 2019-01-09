@@ -11,7 +11,6 @@ public class Exercise8PizzaParty {
 
         return "Each person gets " + pizzaCalculator + " slices and there are " + leftOvers + " slices remaining.";
 
-
     }
 
     public int leftoversCalculator(int numberOfPeople, int numberOfPizzas, int numberOfSlicesPerPizza) {
