@@ -1,3 +1,5 @@
+package Exercise4;
+
 import java.util.Scanner;
 
 public class Exercise4MadLib {
