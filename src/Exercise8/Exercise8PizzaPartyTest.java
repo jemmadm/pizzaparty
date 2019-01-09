@@ -54,4 +54,5 @@ public class Exercise8PizzaPartyTest {
         assertThat(exercise8PizzaParty.leftoversCalculator(5, 3, 10)).isEqualTo(0);
     }
 
+
 }
