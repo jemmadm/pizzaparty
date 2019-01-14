@@ -3,7 +3,6 @@ package Exercise9;
 public class Exercise9PaintCalculator {
     private final static double CONVERSION_FACTOR = 0.002857142857143;
 
-
     public String paintNeeded(double width, double length) {
         if (length * width % 350 == 0) {
             return "" + (int) (length * width / 350) + " gallons of paint needed";}
