@@ -1,9 +1,10 @@
 package Exercise1;
 
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class Exercise1SayingHelloTest {
+
     @Test
 
     public void doesItWork() {

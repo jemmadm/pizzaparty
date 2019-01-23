@@ -8,16 +8,10 @@ public class Exercise8PizzaParty {
 
         int leftOvers = leftoversCalculator(numberOfPeople, numberOfPizzas, numberOfSlicesPerPizza);
 
-
         return "Each person gets " + pizzaCalculator + " slices and there are " + leftOvers + " slices remaining.";
-
     }
 
     public int leftoversCalculator(int numberOfPeople, int numberOfPizzas, int numberOfSlicesPerPizza) {
-        int leftovers = (numberOfPizzas * numberOfSlicesPerPizza) % numberOfPeople;
-
-
-        return leftovers;
-
+        return (numberOfPizzas * numberOfSlicesPerPizza) % numberOfPeople;
     }
 }
