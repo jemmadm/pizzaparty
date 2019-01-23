@@ -1,3 +1,5 @@
+package Exercise7;
+
 import org.junit.Before;
 import org.junit.Test;
 

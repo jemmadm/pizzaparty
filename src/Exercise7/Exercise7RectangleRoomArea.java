@@ -1,3 +1,5 @@
+package Exercise7;
+
 public class Exercise7RectangleRoomArea {
     private final static double CONVERSION_FACTOR = 0.09290304;
 
