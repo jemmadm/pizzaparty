@@ -72,17 +72,17 @@ public class Exercise9PaintCalculatorTest {
     }
 
     @Test
-    public void roundRoomRadius0(){
+    public void roundRoomRadius0() {
         assertThat(exercise9PaintCalculator.paintNeededForRoundRoom(0)).isEqualTo("0");
     }
 
     @Test
-    public void roundRoomRadius2(){
+    public void roundRoomRadius2() {
         assertThat(exercise9PaintCalculator.paintNeededForRoundRoom(2)).isEqualTo("13");
     }
 
     @Test
-    public void roundRoomRadius5(){
+    public void roundRoomRadius5() {
         assertThat(exercise9PaintCalculator.paintNeededForRoundRoom(5)).isEqualTo("79");
     }
 }

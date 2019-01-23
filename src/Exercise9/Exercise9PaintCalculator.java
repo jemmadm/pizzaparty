@@ -5,13 +5,12 @@ public class Exercise9PaintCalculator {
 
     public String paintNeededForRectangularRoom(double width, double length) {
         if (length * width % 350 == 0) {
-            return "" + (int) (length * width / 350) + " gallons of paint needed";}
-         else return  (int)Math.ceil(length * width * CONVERSION_FACTOR) + " gallons of paint needed";
+            return "" + (int) (length * width / 350) + " gallons of paint needed";
+        } else return (int) Math.ceil(length * width * CONVERSION_FACTOR) + " gallons of paint needed";
     }
 
-    public String paintNeededForRoundRoom(double radius){
+    public String paintNeededForRoundRoom(double radius) {
 
-        return "" + (int)Math.ceil((radius*radius)*Math.PI);
+        return "" + (int) Math.ceil((radius * radius) * Math.PI);
     }
-
 }
